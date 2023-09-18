@@ -9,13 +9,20 @@ li{
     margin-right: 25px;
     margin-top: 10px;
 }
-a{
+.nav-item{
     text-decoration: none;
     display: block;
     color: black;
 }
+span{
+    display: block;
+}
+p{
+    text-align: left;
+}
 h1{
     font-size: 4.5em;
+    text-align: left;
 }
 h2{
     font-size: 2em ;
