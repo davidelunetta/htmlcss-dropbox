@@ -17,9 +17,15 @@ a{
 h1{
     font-size: 4.5em;
 }
+h2{
+    font-size: 2em ;
+}
 img{
     display: block;
     width: 100%;
+}
+label{
+    margin-right: 20px;
 }
 header{
     position: fixed;
@@ -42,11 +48,26 @@ header{
     margin: 0 auto;
     padding: 5px 0px;
 }
+.container-small{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px 0px;
+}
 .mb30{
     margin-bottom: 30px;
 }
 .mb20{
     margin-bottom: 20px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mese{
+    color: #746F80;
+}
+.line{
+    border: 1px solid #746F80;
+    max-width: 45px;
 }
 #hero{
     background-color:#B4D0E7 ;
@@ -62,6 +83,21 @@ header{
 }
 .hero-right{
     width: 65%;
+}
+#piani.container{
+    margin-top: 100px;
+}
+.plan{
+    width: calc(100% / 3 - 20px);
+    border: 1px solid #666;
+}
+.plan-body{
+    padding: 10px;
+}
+.plan-header{
+    text-align: center;
+    border-bottom: 1px solid #666;
+    padding: 10px;
 }
 /* FLEX  */
 .d-flex{
