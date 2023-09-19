@@ -67,6 +67,12 @@ header{
     margin: 0 auto;
     padding: 5px 0px;
 }
+.mb80{
+    margin-bottom: 80px;
+}
+.mb60{
+    margin-bottom: 60px;
+}
 .mb30{
     margin-bottom: 30px;
 }
@@ -105,6 +111,9 @@ header{
     width: calc(100% / 3 - 20px);
     border: 1px solid #666;
 }
+.plan-heigt{
+    height: 150px;
+}
 .plan-body{
     padding: 10px;
 }
@@ -140,19 +149,42 @@ header{
     position: relative;
     top: 40px;
 }
-.spacer{
-    height: 65px;
-}
 .business{
     width: calc(100% / 3 - 20px);
     padding: 6px 20px;
 }
-.business-wrap{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: flex-start;
-        align-content: flex-start;
+.brand-wrapper{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+.brand1{
+    width: 50%;
+    height: 50%;
+    background-color: #A2D39B;
+}
+.brand2{
+    width: 50%;
+    height: 50%;
+    background-color: #61082B;
+}
+.brand3{
+    width: 50%;
+    height: 50%;
+    background-color: #0093CE;
+}
+.brand4{
+    width: 50%;
+    height: 50%;
+    background-color: #FF1C1C;
+}
+.brand-img{
+    display: block;
+    color: #ffffff;
+    /* position: relative; */
+    /* top: 40%; */
+    /* left: 25%; */
+    width: 50%;
+    align-items: center;
 }
 /* FLEX  */
 .d-flex{
@@ -167,6 +199,13 @@ header{
     align-content: center;
 }
 .align.start{
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.flex-wrap{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
 }
