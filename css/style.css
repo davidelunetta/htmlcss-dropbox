@@ -132,13 +132,28 @@ header{
 .txt-align{
     text-align: left;
 }
+.img-partner{
+    width: 85%;
+}
 .partner-right{
-    margin-left: 20px;
     width: 45%;
     position: relative;
     top: 40px;
 }
-
+.spacer{
+    height: 65px;
+}
+.business{
+    width: calc(100% / 3 - 20px);
+    padding: 6px 20px;
+}
+.business-wrap{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+}
 /* FLEX  */
 .d-flex{
     display: flex;
