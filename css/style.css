@@ -50,6 +50,13 @@ header{
     padding: 6px 10px;
     display: inline-block;
 }
+.btn-white{
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    color: #000000 ;
+    padding: 6px 10px;
+    display: inline-block;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -106,6 +113,32 @@ header{
     border-bottom: 1px solid #666;
     padding: 10px;
 }
+.enterprise{
+    text-align: center;
+    border: 1px solid #666;
+}
+.enterprise-left{
+    width: 60%;
+}
+
+.margin-right20{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.margin-left20{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.txt-align{
+    text-align: left;
+}
+.partner-right{
+    margin-left: 20px;
+    width: 45%;
+    position: relative;
+    top: 40px;
+}
+
 /* FLEX  */
 .d-flex{
     display: flex;
