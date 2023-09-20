@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Fredoka', sans-serif;
+
+    font-family: 'Noto Sans Linear B', sans-serif;
+
+    font-family: 'Nunito', sans-serif;
+}
 li{
     text-decoration: none;
     list-style: none;
@@ -56,6 +63,7 @@ header{
     color: #000000 ;
     padding: 6px 10px;
     display: inline-block;
+    text-decoration: none;
 }
 .container{
     max-width: 1200px;
@@ -66,6 +74,12 @@ header{
     max-width: 1000px;
     margin: 0 auto;
     padding: 5px 0px;
+}
+.container-brand{
+    max-width: 1000px;
+    min-height: 200px;
+    margin: 0 auto;
+    padding: 80px 0px;
 }
 .mb80{
     margin-bottom: 80px;
@@ -161,6 +175,7 @@ header{
     width: 50%;
     height: 50%;
     background-color: #A2D39B;
+    border: 10px solid lightgray;
 }
 .brand2{
     width: 50%;
@@ -177,14 +192,66 @@ header{
     height: 50%;
     background-color: #FF1C1C;
 }
+.brand5{
+    width: 50%;
+    height: 50%;
+    background-color: #D5001F;
+}
+.brand6{
+    width: 50%;
+    height: 50%;
+    background-color: #B4D0E7;
+}
+.brand7{
+    width: 50%;
+    height: 50%;
+    background-color: #0D2481;
+}
+.brand8{
+    width: 50%;
+    height: 50%;
+    background-color: #FFD830;
+}
 .brand-img{
     display: block;
-    color: #ffffff;
-    /* position: relative; */
-    /* top: 40%; */
-    /* left: 25%; */
+    fill: #ffffff;
     width: 50%;
-    align-items: center;
+    margin-left: 25%;
+}
+.brand-img-florida{
+    display:block;
+    width: 75%;
+    height: 10%;
+    margin-top: 50%;
+    margin-left: 10%;
+}
+.brand-img-center{
+    display: block;
+    margin: 30px 40px;
+    margin-top: 20px;
+    width: 50%;
+}
+.brand-center{
+    margin: 30px 40px;
+}
+.under-brand{
+    background-color: #B4D0E7;
+}
+.text-brand{
+    color: #61082B;
+}
+.faq{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.footer-box{
+    min-height: 200px;
+    background-color: #000000;
+
+}
+.footer-ul{
+    margin: 50px 30px;
+    color: #ffffff;
 }
 /* FLEX  */
 .d-flex{
